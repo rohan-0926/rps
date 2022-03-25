@@ -1,0 +1,135 @@
+body{
+    background: #e0e0e0;
+}
+#head{
+    margin-left: 500px;
+    height: 50px;
+    background: rgb(251, 197, 206);
+    box-shadow:  49px 49px 93px #5a5a5a,
+             -49px -49px 93px #ffffff;
+    color: rgb(240, 99, 134);
+}
+#head:hover{
+    color: white
+}
+#p1{
+    margin-top: 160px;
+    margin-left: 390px;
+    margin-right: 1100px;
+    /* background: red; */
+    color: rgb(76, 64, 243);
+    cursor: pointer;
+}
+#p1:hover{
+    color: rgb(129, 243, 139);
+}
+#counter{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    color: rgb(76, 64, 243);
+}
+.player1{
+    margin-left: 400px;
+    margin-right:1100px ;
+    width: 271px;
+    height: 200px;
+    /* background: aqua; */
+    /* justify-content: space-around; */
+}
+#buttons{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 50px;
+    margin-left: 510px;
+    margin-right: 744px;
+    /* background: aqua; */
+    border-radius: 5px;
+    /* width: 40px; */
+    box-shadow:  49px 49px 93px #5a5a5a,
+             -49px -49px 93px #ffffff;
+}
+#btn{
+    margin-right: 15px;
+    width: 75px;
+    height: 37px;
+    border-style: none;
+    outline: none;
+    background: rgba(236, 129, 129, 0.644);
+    border-radius: 5px;
+}
+#btn:hover{
+    background: rgb(247, 131, 231);
+    cursor: pointer;
+}
+#btn1{
+    /* position: fixed; */
+    margin-right: 20px;
+    width: 75px;
+    height: 37px;
+    border-style: none;
+    outline: none;
+    background:wheat;
+    border-radius: 5px;
+}
+#btn1:hover{
+    background: rgb(247, 131, 231);
+    cursor: pointer;
+}
+#btn2{
+    /* margin-right: 20px; */
+    /* position: fixed; */
+    width: 75px;
+    height: 37px;
+    border-style: none;
+    outline: none;
+    background: rgba(188, 213, 238, 0.753);
+    border-radius: 5px;
+}
+#btn2:hover{
+    background: rgb(247, 131, 231);
+    cursor: pointer;
+}
+.player2{
+    margin-left: 900px;
+    margin-top: -408px;
+    margin-right: 530px;
+    /* background: blue; */
+    color: rgb(134, 145, 238);
+    cursor: pointer;
+}
+.player2:hover{
+    color: rgb(247, 131, 231);;
+}
+#counter1{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.refresh{
+     position: fixed; 
+    display: flex; 
+    padding: 15px; 
+    margin-top: 300px;
+    margin-left: 564px; 
+    padding: 5px 20px; 
+    padding: 5px;
+}
+#reload{
+    /* display: flex; */
+    /* position: fixed; */
+    /* text-align: center; */
+    /* z-index: 99; */
+    width: 150px;
+    height: 40px;
+    border-style: none;
+    outline: none;
+    background: aqua;
+    border-radius: 5px;
+}
+#reload:hover{
+    background: rgba(128, 169, 235, 0.801);
+    cursor: pointer;
+}
+
+
